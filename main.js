@@ -13,7 +13,7 @@ camera.position.y = -100;
 
 
 // Create a renderer
-const renderer = new THREE.WebGLRenderer({
+const renderer= new THREE.WebGLRenderer({
     canvas: document.querySelector('#bg'),
 });
 renderer.setPixelRatio(window.devicePixelRatio);
