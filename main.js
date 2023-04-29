@@ -25,31 +25,31 @@ light.position.set(0, 0, 0);
 scene.add(light);
 
 // Create celestial objects
-const sunTexture = new THREE.TextureLoader().load("./public/sun.jpg");
+const sunTexture = new THREE.TextureLoader().load("public/sun.jpg");
 const sun = new THREE.Mesh(new THREE.SphereGeometry(23, 32, 32), new THREE.MeshBasicMaterial({ map: sunTexture }));
 scene.add(sun);
 
-const mercuryTexture = new THREE.TextureLoader().load("./public/2k_mercury.jpg");
+const mercuryTexture = new THREE.TextureLoader().load("public/2k_mercury.jpg");
 const mercury = new THREE.Mesh(new THREE.SphereGeometry(2.2, 32, 32), new THREE.MeshBasicMaterial({ map: mercuryTexture }));
 scene.add(mercury);
 
-const venusTexture = new THREE.TextureLoader().load("./public/2k_venus.jpg");
+const venusTexture = new THREE.TextureLoader().load("public/2k_venus.jpg");
 const venus = new THREE.Mesh(new THREE.SphereGeometry(3, 32, 32), new THREE.MeshBasicMaterial({ map: venusTexture }));
 scene.add(venus);
 
-const earthTexture = new THREE.TextureLoader().load("./public/world.jpg");
+const earthTexture = new THREE.TextureLoader().load("public/world.jpg");
 const earth = new THREE.Mesh(new THREE.SphereGeometry(3, 32, 32), new THREE.MeshBasicMaterial({ map: earthTexture }));
 scene.add(earth);
 
-const jupiTexture = new THREE.TextureLoader().load("./public/2k_jupiter.jpg");
+const jupiTexture = new THREE.TextureLoader().load("public/2k_jupiter.jpg");
 const jupiter = new THREE.Mesh(new THREE.SphereGeometry(9, 32, 32), new THREE.MeshBasicMaterial({ map: jupiTexture }));
 scene.add(jupiter);
 
-const marsTexture = new THREE.TextureLoader().load("./public/2k_mars.jpg");
+const marsTexture = new THREE.TextureLoader().load("public/2k_mars.jpg");
 const mars = new THREE.Mesh(new THREE.SphereGeometry(2.5, 32, 32), new THREE.MeshBasicMaterial({ map: marsTexture }));
 scene.add(mars);
 
-const saturnTexture = new THREE.TextureLoader().load("./public/2k_saturn.jpg");
+const saturnTexture = new THREE.TextureLoader().load("public/2k_saturn.jpg");
 const saturn = new THREE.Mesh(new THREE.SphereGeometry(4, 32, 32), new THREE.MeshBasicMaterial({ map: saturnTexture }));
 scene.add(saturn);
 const ringGeometry = new THREE.RingGeometry(6, 10, 64);
@@ -58,11 +58,11 @@ const ring = new THREE.Mesh(ringGeometry, ringMaterial);
 ring.rotation.x = Math.PI / 2;
 saturn.add(ring);
 
-const uraTexture = new THREE.TextureLoader().load("./public/2k_uranus.jpg");
+const uraTexture = new THREE.TextureLoader().load("public/2k_uranus.jpg");
 const uranus = new THREE.Mesh(new THREE.SphereGeometry(4, 32, 32), new THREE.MeshBasicMaterial({ map: uraTexture }));
 scene.add(uranus);
 
-const nepTexture = new THREE.TextureLoader().load("./public/2k_neptune.jpg");
+const nepTexture = new THREE.TextureLoader().load("public/2k_neptune.jpg");
 const neptune = new THREE.Mesh(new THREE.SphereGeometry(4, 32, 32), new THREE.MeshBasicMaterial({ map: nepTexture }));
 scene.add(neptune);
 
@@ -135,7 +135,7 @@ scene.add(earthOrbitLine);
 const asteroidBelt = new THREE.Group();
 scene.add(asteroidBelt);
 
-const asteroidBeltTexture = new THREE.TextureLoader().load("./public/asteroid.jpg");
+const asteroidBeltTexture = new THREE.TextureLoader().load("public/asteroid.jpg");
 const asteroidCount = 700;
 const asteroidDistanceRange = { min: 92, max: 114 };
 const asteroidSizeRange = { min: 0.2, max: 1 };
@@ -201,7 +201,7 @@ for (let i = 0; i < asteroidCount2; i++) {
 const controls = new OrbitControls(camera, renderer.domElement);
 
 // Add scene background
-const spaceTexture = new THREE.TextureLoader().load("./public/space.jpg");
+const spaceTexture = new THREE.TextureLoader().load("public/space.jpg");
 scene.background = spaceTexture;
 
 // Create constructor for infographic
@@ -216,7 +216,7 @@ function info(text) {
     textInfo.style.color = "white";
     textInfo.style.textAlign = "center";
     textInfo.style.border = "30px solid black";
-    textInfo.style.borderImage = "url('./public/border.png') 250 250 stretch";
+    textInfo.style.borderImage = "url('public/border.png') 250 250 stretch";
     textInfo.style.borderImageSlice = "250";
     textInfo.style.padding = "10px";
     textInfo.style.display = "none";
