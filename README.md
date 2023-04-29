@@ -1,7 +1,7 @@
 # Solar-System Simulation Project
 
 The Solar-System Simulation Project is a computer program that allows you to simulate the motion of planets in our solar system.
-![solar system screenshot](https://imgur.com/a/DqyxlKe)
+![solar system screenshot](./Screenshot_20230429_233352.png)
 
 ## Features
 
