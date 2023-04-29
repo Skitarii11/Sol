@@ -1,0 +1,20 @@
+{
+  "name": "sol",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Skitarii11.github.io/Sol/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "three": "^0.152.2"
+  }
+}
