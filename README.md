@@ -1,6 +1,7 @@
 # Solar-System Simulation Project
 
 The Solar-System Simulation Project is a computer program that allows you to simulate the motion of planets in our solar system.
+![solar system screenshot](https://imgur.com/a/DqyxlKe)
 
 ## Features
 
@@ -18,7 +19,6 @@ To install and run the Solar-System Simulation Project on your computer, follow 
 2. Install [Node.js](https://nodejs.org/) on your machine if you don't have it already.
 3. Open a terminal window and navigate to the project folder.
 4. Run `npm install` to install the necessary dependencies.
-5. Run `npm start` to start the application. This will open a new browser window with the simulation.
 
 ## Usage
 
