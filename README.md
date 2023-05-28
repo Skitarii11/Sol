@@ -29,4 +29,4 @@ Once the Solar-System Simulation Project is running, you can interact with it in
 
 ## Credits
 
-This project was developed by [Javkhlan] as a Personal project using [JavaScript/Vite.js/Vanilla.js/Three.js].
+This project was developed by [Javkhlan](https://github.com/Skitarii11) as a Personal project using [JavaScript/Vite.js/Vanilla.js/Three.js].
